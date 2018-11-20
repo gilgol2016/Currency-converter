@@ -1,0 +1,85 @@
+html {
+    width:220px;
+}
+body {
+    background-color: #efe480;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#input_currency{
+    height: 19px;
+}
+
+#flagImage{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.imageDivContainer{
+    float: left;
+    padding-top: 2px;
+}
+
+.baseCurrencyDiv{
+    float: left;
+}
+
+#converterImage{
+    height: 160px;
+    width: 160px;
+}
+
+.amountNumber{
+    float: right;
+    width: 80px;
+}
+
+.percent{
+    padding-left: 1px;
+    width: 50px;
+    float: right;
+}
+#checkboxCommission {
+    margin-left: 0px;
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+.border {
+    border: 5px groove rgb(253, 232, 113);
+    margin: 0px;
+    padding: 0px 8px 8px 8px;
+}
+
+.resultTxt{
+    width: 100px;
+    background-color: antiquewhite;
+    padding-left: 2px;
+    float: right;
+}
+
+.resultSelectBox{
+    margin-left: 4px;
+}
+
+#selectBaseCurrency{
+    width: 80px;
+    float: right;
+}
+
+#updatedInfo{
+    opacity: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#resetDiv{
+    padding-top:10px;
+}
