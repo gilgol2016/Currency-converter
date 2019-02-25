@@ -4,13 +4,15 @@
             <link rel="stylesheet" type="text/css" href="/style.css" />
       <title>Currency Popup</title>
     </head>
-    <body class="border">
-        <div id="updatedInfo">Currency updated</div>
+    <body class="bodyBackground1">
+        <span id="colorPickerSpan" title="Changes background color"><img class="cursor" src="images/color_picker_16.png" height="16" width="16"></span>
+        <div id="updatedInfo">Rates updated</div>
         <h2>Currency converter + </h2>
+        <form action="">
         <div id="container">
             <div id="input_currency">
                 <label>Currency amount: </label>
-                <input type="number" id="amount" class="amountNumber" min="0" value="">
+                <input type="number" id="currencyConverted0" class="amountNumber" min="0" value="">
             </div>
             <div class="margin">
                 <input type="checkbox" id="checkboxCommission">
@@ -22,28 +24,29 @@
             <div id="base_currency" class="margin">
                 <div class="baseCurrencyDiv"><label title="The currency to convert from">Base currency: </label></div>
                 <img class="flagImage" id="flagImage"/>
-                <select id="selectBaseCurrency"></select>
+                <select id="selectCurrency0"></select>
             </div>
         </div>
         <hr/>
         <div class="margin">
             <div class="imageDivContainer"><img class="flagImage" id="flagImage1"/></div>
             <select id="selectCurrency1" class="resultSelectBox"></select>
-            <input type="text" id="currencyConverted1" class="resultTxt " readonly>
+            <input type="number" id="currencyConverted1" class="resultTxt " readonly>
         </div>
         <div class="margin">
             <div class="imageDivContainer"><img class="flagImage" id="flagImage2"/></div>
             <select id="selectCurrency2" class="resultSelectBox"></select>
-            <input type="text" id="currencyConverted2" class="resultTxt " readonly>
+            <input type="number" id="currencyConverted2" class="resultTxt " readonly>
         </div>
         <div class="margin">
             <div class="imageDivContainer"><img class="flagImage" id="flagImage3"/></div>
             <select id="selectCurrency3" class="resultSelectBox"></select>
-            <input type="text" id="currencyConverted3" class="resultTxt " readonly>
+            <input type="number" id="currencyConverted3" class="resultTxt " readonly>
         </div>
         <div id="resetDiv">
-            <input type="button" id="resetButton" value="Reset" title="Reset all data">
+            <input type="reset" id="resetButton" value="Reset" title="Reset data">
         </div>
+    </form>
     </body>
     <script src="jquery-3.3.1.min.js"></script>
     <script src="popup.js"></script>
