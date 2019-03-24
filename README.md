@@ -9,3 +9,9 @@ Ver. 1.24
 Add:
 - Background color. Few new background colors.
 - Now can enter values on other currencies. Enabled when commission unchecked.
+
+
+Ver. 1.3
+---------
+Add:
+- Add/Remove more currencies to convert

@@ -42,6 +42,8 @@ h2{
 #flagImage{
     padding-left: 20px;
     padding-top: 2px;
+    float: left;
+    padding-right: 3px;
 }
 
 .imageDivContainer{
@@ -100,7 +102,7 @@ h2{
     margin-left: 10px;
 }
 
-#resetDiv{
+#buttonsDiv{
     padding-top:10px;
 }
 
@@ -111,4 +113,9 @@ h2{
     height: 16px;
     margin-left: -8px;
     cursor: pointer;
+}
+
+.addRemoveCurrncies
+{
+    float: right;
 }
