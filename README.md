@@ -1,17 +1,31 @@
-Convert to several currencies.
-'Currency converter +' converts your default currency (Base currency) to several currencies by your choice from list of most used currencies. 
-It get its updates, once a day every business day, by "European Central Bank".
-The state of the extension saved automatically and you can reset it back to default.
-In case that your credit card company add commission you can add it also in 'Currency converter +'
+💱 Currency Converter +
+-----------------------
+Currency Converter + is a lightweight Chrome extension that helps you convert your base currency into multiple popular currencies — instantly and intuitively.
 
-Ver. 1.24
----------
+**✨ Features:**
+Convert your default currency to several others of your choice
+Daily exchange rate updates from the European Central Bank
+Add/remove currencies from the conversion list
+Customize background colors for a personalized look
+Input values in any currency (when commission is disabled)
+Automatically saves your settings — with a reset-to-default option
+Add commission rates manually to reflect credit card fees
+
+Version 2.01 (Manifest V3)
+--------------------------
+Migrated to Manifest V3 for improved performance and security
+Enhanced UI and UX
+Better handling of commission logic
+Code cleanup and optimization
+
+Version 1.24
+------------
 Add:
 - Background color. Few new background colors.
 - Now can enter values on other currencies. Enabled when commission unchecked.
 
 
-Ver. 1.3
----------
+Version 1.3
+-----------
 Add:
 - Add/Remove more currencies to convert
