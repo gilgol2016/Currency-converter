@@ -1,29 +1,36 @@
 {
   "name": "Currency converter +",
   "description": "Convert to several currencies",
-  "version": "1.3",
-  "manifest_version": 2,
+  "version": "2.01",
+  "manifest_version": 3,
   "permissions": [
     "storage"
   ],
-  "scripts": [
-    {
-      "js": ["jquery-3.3.1.min.js", "popup.js"],
-	    "run_at": "document_end"
-    }
+  "host_permissions": [
+    "<all_urls>"
   ],
-  "browser_action": {
-		"default_icon": {
-			"19": "images/currency_logo.png",
-			"38": "images/currency_logo.png"
-		},
-		"default_title": "Currency converter +",
-		"default_popup": "popup.html"
+  "action": {
+    "default_icon": {
+      "19": "images/currency_logo.png",
+      "38": "images/currency_logo.png"
+    },
+    "default_title": "Currency converter +",
+    "default_popup": "popup.html"
   },
   "icons": {
-		"16": "images/currency_logo16.png",
-		"48": "images/currency_logo48.png",
-		"64": "images/currency_logo64.png",
-		"128": "images/currency_logo.png"
-  }
+    "16": "images/currency_logo.png",
+    "48": "images/currency_logo.png",
+    "64": "images/currency_logo.png",
+    "128": "images/currency_logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery-3.3.1.min.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
