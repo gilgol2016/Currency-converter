@@ -11,21 +11,4 @@ Input values in any currency (when commission is disabled)
 Automatically saves your settings — with a reset-to-default option
 Add commission rates manually to reflect credit card fees
 
-Version 2.01 (Manifest V3)
---------------------------
-Migrated to Manifest V3 for improved performance and security
-Enhanced UI and UX
-Better handling of commission logic
-Code cleanup and optimization
-
-Version 1.24
-------------
-Add:
-- Background color. Few new background colors.
-- Now can enter values on other currencies. Enabled when commission unchecked.
-
-
-Version 1.3
------------
-Add:
-- Add/Remove more currencies to convert
+![2025-08-25 13 02 00](https://github.com/user-attachments/assets/9db6a6c0-3ebf-4d75-b35c-7a2dcd63b718)
